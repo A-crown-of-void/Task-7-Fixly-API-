@@ -1,0 +1,16 @@
+const express = require("express");
+const router = express.Router();
+
+const reviewController = require("../controllers/review.controller");
+
+router.get("/" , reviewController.getAll);
+
+router.get("/:id" , reviewController.getOne);
+
+router.post("/" , reviewController.create);
+
+router.patch("/:id" , reviewController.update);
+
+router.delete("/:id" , reviewController.remove);
+
+module.exports = router;

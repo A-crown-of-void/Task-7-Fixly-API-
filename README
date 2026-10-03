@@ -1,0 +1,18 @@
+# Fixly API
+
+REST API for a home maintenance system built with Node.js, Express, MongoDB, and Mongoose.
+
+## Technologies
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Dotenv
+- Morgan
+- Nodemon
+
+## Installation
+
+`bash
+npm install
